@@ -13,6 +13,7 @@ my $build = Module::Build->new(
   requires => {
     'Mojolicious' => '4.0',
     'File::HomeDir' => 0,
+    'IO::Socket::SSL' => '1.94',
   },
   meta_merge => {
     resources => {
